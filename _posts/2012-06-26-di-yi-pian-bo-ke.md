@@ -1,4 +1,3 @@
-1;2c
 ---
 layout: post
 title: "第一篇博客"
