@@ -21,7 +21,7 @@ categories:
 ###[第二种:markdown改成kramdown](http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/)
 
 $$
-\begin{align}
+\begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
   & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
@@ -34,14 +34,17 @@ $$
       \vdots \\
       y_n
     \end{array} \right)
-\end{align}
+\end{align*}
 $$
 
 $$
 \begin{align}
-\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
-\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
-\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} 
+
+\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} 
+
+\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} 
+
 \end{align}
 $$
 
