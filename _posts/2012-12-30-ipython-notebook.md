@@ -7,7 +7,10 @@ tags: []
 ---
 {% include JB/setup %}
 
-##在远程服务器上安装好ipython
+
+在远程服务器上安装好ipython
+
+===========
   推荐使用EC2
 
 ##通过SSH登陆服务器，并利用SSH的本地端口转发功能
@@ -30,6 +33,5 @@ ipython notebook --pylab=inline
 
 ##在本地机器的浏览器中输入:127.0.0.1:3001即可！
 
-This is a Ruby code fragment `x = Class.new`{:.language-ruby}
 
 >关于SSH的介绍可参考[这里](http://zh.wikipedia.org/wiki/SSH),[这里](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html),[这里](http://www.ruanyifeng.com/blog/2011/12/ssh_port_forwarding.html)和[这里](http://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/)
