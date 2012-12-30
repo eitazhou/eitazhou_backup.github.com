@@ -30,4 +30,6 @@ ipython notebook --pylab=inline
 
 ##在本地机器的浏览器中输入:127.0.0.1:3001即可！
 
->关于SH的介绍可参考[这里](http://zh.wikipedia.org/wiki/SSH),[这里](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html),[这里](http://www.ruanyifeng.com/blog/2011/12/ssh_port_forwarding.html)和[这里](http://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/)
+This is a Ruby code fragment `x = Class.new`{:.language-ruby}
+
+>关于SSH的介绍可参考[这里](http://zh.wikipedia.org/wiki/SSH),[这里](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html),[这里](http://www.ruanyifeng.com/blog/2011/12/ssh_port_forwarding.html)和[这里](http://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/)
