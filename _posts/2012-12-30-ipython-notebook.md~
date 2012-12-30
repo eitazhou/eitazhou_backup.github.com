@@ -1,0 +1,8 @@
+---
+layout: post
+title: "如何远程登陆ipython notebook"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
