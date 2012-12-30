@@ -14,6 +14,7 @@ tags: []
   推荐使用EC2
 
 ##通过SSH登陆服务器，并利用SSH的本地端口转发功能
+
 ~~~~~
 
 ssh -L *:3001:127.0.0.1:8888 -i ~/Downloads/aws_test.pem ubuntu@ec2-184-72-66-221.compute-1.amazonaws.com
@@ -23,6 +24,7 @@ ssh -L *:3001:127.0.0.1:8888 -i ~/Downloads/aws_test.pem ubuntu@ec2-184-72-66-22
 注意：3001是本地的端口，8888是运行ipython的远程服务器的端口
 
 ##登陆服务器后，启动IPYTHON
+
 ~~~~~
 
 ipython notebook --pylab=inline 
